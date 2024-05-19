@@ -1,17 +1,8 @@
-```mermaid
-sequenceDiagram
-    SBB->>JPA: Java 객체(DAO)
-    JPA->>JDBC: JDBC API
-    JDBC->>H2: SQL
-    H2-->>JDBC: DB
-    JDBC-->>JPA: API return
-    JPA-->>SBB: 객체 return
 
-```
-SBB _SpringBoot Board_
+SBB_React _SpringBoot and React Board_
 -----------------------------
 -----------------------------
-### 스프링부트 게시판 입니다.
+### 스프링부트와 리액트 게시판 입니다.
 
-스프링부트 게시판 입니다.
+SBB_20231106 의 프론트엔드를 React로 다시 짜는 프로젝트 입니다.
 
